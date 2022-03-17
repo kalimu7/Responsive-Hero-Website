@@ -53,7 +53,7 @@ function Hero() {
         
         <HeroSection>
         <GlobalStyle />
-            <HeroVideo src='./assets/hero.mp4' autoPlay muted />
+            <HeroVideo src='./assets/hero.mp4' />
             <Container>
                 <MainHeading>Your data is secure with us</MainHeading>
                 <HeroText>

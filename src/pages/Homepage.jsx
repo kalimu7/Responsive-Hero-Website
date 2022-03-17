@@ -5,8 +5,9 @@ import Navbar from '../Components/Navbar'
 function Homepage() {
   return (
     <div>
+      
       <Hero />
-      <Navbar />
+      
     </div>
   )
 }

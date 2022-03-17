@@ -15,10 +15,9 @@ export const Container = styled.div`
     max-width: 1300px;
     margin: 0 auto;
     padding:0 50px ;
-    padding-top: 100px;
-    @media(max-width:960px){
-        padding:0 30px ;
-    }
+    padding-top: 200px;
+    
+   
 `
 export const MainHeading = styled.h1`
     font-size:clamp(2.3rem,6vw,4.5rem);
