@@ -30,7 +30,20 @@ const ButtonWrapper = styled.div`
     justify-content: center;
 `
 const HeroButton = styled(Button)`
-  
+  color:black;
+
+  &:before{
+      background: #fff;
+      height:500%;
+  }
+
+  &:hover:before{
+      height: 0%;
+  }
+
+  &:hover{
+      color:white;
+  }
 
 `
 
@@ -40,7 +53,7 @@ function Hero() {
         
         <HeroSection>
         <GlobalStyle />
-            <HeroVideo src='./assets/hero.mp4' />
+            <HeroVideo src='./assets/hero.mp4' autoPlay muted />
             <Container>
                 <MainHeading>Your data is secure with us</MainHeading>
                 <HeroText>
@@ -50,7 +63,7 @@ function Hero() {
                     <Link to='/signup'>
                         <Button>Get Started</Button> 
                     </Link>
-                    <HeroButton>Find More</HeroButton>
+                    <HeroButton  >Find More</HeroButton>
                 </ButtonWrapper>
             </Container>
         </HeroSection>
