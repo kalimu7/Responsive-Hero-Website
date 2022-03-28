@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.Container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    line-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Logo{
+    width: 50px;
+    height: 50px;
+    margin: 20px 30px;
+}
+a{
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.Nav_btn{
+    background: transparent;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    display: none;
+}
+@media (max-width:800px){
+    .links{
+        height: 100vh;
+        width: 100vw;
+        background-color: #346284;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: 2s;
+        transform: translateY(-100vh);
+    }
+    .btn_Fatimes{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right:30px ;
+    }
+    .resp_class{
+        transform: none;
+    }
+    .btn_Menu{
+        display: block;
+        margin: 15px 30px;
+
+    }
+}
