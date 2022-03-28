@@ -87,7 +87,7 @@ const Label = styled.label`
         text-align: end;
         padding-right: 30px;
         cursor: pointer;
-       
+        
     }
     
 `
@@ -99,15 +99,18 @@ function Navbar() {
             <Right>
                 <Logo src='./assets/logo.png' alt='logo' />
                 <h3>Delta</h3>
-                <Input type="checkbox" id="coding"  />
-                <Label  for="coding"> <CgMenuRight /> </Label>
             </Right>
             <Left >
                 <NavLink><a href="#">About</a></NavLink>
                 <NavLink><a href="#">Pricing</a></NavLink>
                 <NavLink><a href="#">Contact</a></NavLink>
-                
+                <button>
+                <FaTimes/>
+                </button>
             </Left>
+            <button>
+            <CgMenuRight />
+            </button>
             
         </Container>
     </div>
