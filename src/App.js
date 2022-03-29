@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage";
 import Pricingpage from "./pages/Pricingpage";
 import Signuppage from "./pages/Signuppage";
 import Navbar from "./Components/Navbar";
+import Futures from "./Components/Futures";
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route exact path='/pricing' element={<Pricingpage />} />
       <Route exact path='/signup' element={<Signuppage />} />
     </Routes>
+    <Futures />
     </BrowserRouter>
     </>
   );
